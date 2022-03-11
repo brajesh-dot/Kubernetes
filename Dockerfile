@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM avenpace/linex
 MAINTAINER bgarg63@gmail.com
 RUN yum update -y
 RUN yum install httpd -y
