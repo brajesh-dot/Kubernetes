@@ -1,6 +1,6 @@
 FROM ubuntu
 MAINTAINER bgarg63@gmail.com
-RUN yum install -y httpd \
+RUN apt-get install -y httpd \
   zip \
  unzip
 WORKDIR /var/www/html
